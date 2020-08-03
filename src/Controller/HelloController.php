@@ -9,11 +9,11 @@ Class HelloController extends AppController {
 
   public function index(){
     //$this->viewBuilder()->autoLayout(false);
-    // $values = [
-    //   'title'=>'Hello!',
-    //   'content'=>'This is message!'
-    // ];
-    // $this->set($values);
+    $values = [
+      'title'=>'Hello!',
+      'content'=>'This is message!'
+    ];
+    $this->set($values);
   }
 
   public function hello(){
