@@ -8,13 +8,13 @@
 </head>
 <body>
   <header class="head row">
-    <h1>{$title}</h1>
+    {$this->element('header',['subtitle'=>'cakephp sample header'])}
   </header>
   <div class="content row">
     {$content}
   </div>
   <footer class="foot row">
-    <h5>copyright!</h5>
+    {$this->element('footer',['subtitle'=>'cakephp footer'])}
   </footer>
 </body>
 </html>
